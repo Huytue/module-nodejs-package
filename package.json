@@ -1,14 +1,14 @@
 {
   "name": "module-nodejs-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo Nodejs Module Package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Huytue",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -16,5 +16,14 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.15",
     "nodemon": "^2.0.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://Huytue@github.com/Huytue/module-nodejs-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Huytue/module-nodejs-package/issues"
+  },
+  "homepage": "https://github.com/Huytue/module-nodejs-package#readme"
 }
