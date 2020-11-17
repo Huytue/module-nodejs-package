@@ -11,8 +11,8 @@ module.exports.app = () => {
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
   app.set("view engine", "ejs");
-  app.use(express.static("public"));
-  app.set("views", "./views");
+  app.use(express.static("node_modules/module-nodejs-package/public"));
+  app.set("views", "node_modules/module-nodejs-package/views");
 
   app.use("/student", routeStudent);
   app.use("/classes", routeClasses);
