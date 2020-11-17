@@ -21,9 +21,6 @@ module.exports.app = () => {
   app.listen(3000);
 }
 
-
-
-
 //ket noi mongodb
 module.exports.mongodb = (nameDB) => {
   const mongoose = require("mongoose");
@@ -35,6 +32,3 @@ module.exports.mongodb = (nameDB) => {
   });
 }
 
-module.exports.app = (nameDB) => {
-
-}
