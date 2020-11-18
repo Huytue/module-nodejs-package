@@ -2,10 +2,9 @@
 
 Demo Nodejs Module Package
 
-Using npm:
-
-npm i module-nodejs-package
-npm i -g module-nodejs-package
+#Using npm:
+- npm i module-nodejs-package
+- npm i -g module-nodejs-package
 
 In index.js:
 //Load the full build
